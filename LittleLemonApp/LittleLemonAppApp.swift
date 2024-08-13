@@ -1,10 +1,3 @@
-//
-//  LittleLemonAppApp.swift
-//  LittleLemonApp
-//
-//  Created by Cardenal, Francisco Javier (Cognizant) on 13/8/24.
-//
-
 import SwiftUI
 
 @main
@@ -13,7 +6,7 @@ struct LittleLemonAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Onboarding()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
